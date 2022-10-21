@@ -1,0 +1,21 @@
+.navbar {
+  background-color: transparent;
+}
+
+.link {
+  color: white !important;
+  font-weight: 700 !important;
+}
+
+.link:hover {
+  color: red !important;
+}
+
+.resume {
+  color: white !important;
+  font-weight: 700;
+}
+
+.link span {
+  color: red;
+}

@@ -1,0 +1,22 @@
+.container {
+  padding: 3rem 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrapper li {
+  list-style-type: none;
+}
+
+.wrapper li img {
+  width: auto;
+  height: 60px;
+}
+
+.github {
+  background-color: white;
+  border-radius: 50%;
+}
