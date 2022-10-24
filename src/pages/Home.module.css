@@ -1,13 +1,15 @@
 .main {
-  background-color: black;
+  background-color: #1f2833;
 }
 
 .home {
   height: 100vh;
+  position: relative;
 }
 
 .hero {
-  color: white;
+  z-index: 2;
+  color: #c5c6c7;
   margin-top: 8rem;
   display: flex;
   align-items: center;
@@ -16,18 +18,127 @@
 
 .main_heading {
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .secondary_heading {
   padding: 2rem 0;
-  color: white;
+  color: #c5c6c7;
+
   text-align: center;
 }
 
 .main_heading span {
-  color: red;
+  color: #66fcf1;
 }
 
 .secondary_heading span {
-  color: red;
+  color: #66fcf1;
 }
+
+.contact {
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #c5c6c7;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 1px solid #66fcf1;
+  padding: 0.5rem 2rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.5s;
+}
+
+.contact:hover {
+  color: #1f2833;
+  background-color: #45a29e;
+}
+
+.contact_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  width: 6rem;
+  text-decoration: none;
+  color: #c5c6c7;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid #66fcf1;
+  border-radius: 50%;
+  transition: all 0.5s;
+  padding: 0.5rem 0.5rem;
+
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+s .contact_bottom:hover {
+  color: #1f2833;
+  background-color: #45a29e;
+}
+
+.about {
+  background-color: #0b0c10;
+}
+
+.projects {
+  background-color: #0b0c10;
+}
+
+/* .clip {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 36%, 0 63%);
+}
+
+.clip {
+  background: linear-gradient(
+    307deg,
+    #c5c6c7,
+    #66fcf1,
+    #45a29e,
+    #1f2833,
+    #0b0c10
+  );
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 5s ease infinite;
+  -moz-animation: AnimationName 5s ease infinite;
+  animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 49% 0%;
+  }
+  50% {
+    background-position: 52% 100%;
+  }
+  100% {
+    background-position: 49% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 49% 0%;
+  }
+  50% {
+    background-position: 52% 100%;
+  }
+  100% {
+    background-position: 49% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 49% 0%;
+  }
+  50% {
+    background-position: 52% 100%;
+  }
+  100% {
+    background-position: 49% 0%;
+  }
+} */

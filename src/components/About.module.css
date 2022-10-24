@@ -5,17 +5,42 @@
 }
 
 .img_box {
-  width: 30%;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text_box {
-  width: 30%;
-  color: white;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #c5c6c7;
+
   font-size: 1.1rem;
 }
 
 .img {
-  height: 15rem;
+  height: 18rem;
   width: auto;
-  border-radius: 20px;
+  border-radius: 10px;
+}
+
+.resume {
+  text-decoration: none;
+  color: #c5c6c7;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 1px solid #66fcf1;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.resume:hover {
+  color: #1f2833;
+  background-color: #45a29e;
 }

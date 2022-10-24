@@ -7,7 +7,7 @@ const Header = () => {
       <Container className={`${HeaderCSS.container} d-flex justify-between`}>
         <div>
           <Navbar.Brand href="#home" className={`${HeaderCSS.link}`}>
-            Belean Ioan
+            Ioan Belean
           </Navbar.Brand>
         </div>
         <div>
@@ -15,29 +15,16 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className={`me-auto text-uppercase`}>
               <Nav.Link href="#" className={`${HeaderCSS.link}`}>
-                <span>H</span>ome
+                Home
               </Nav.Link>
-              <Nav.Link href="#" className={`${HeaderCSS.link}`}>
-                <span>A</span>bout Me
+              <Nav.Link href="#about" className={`${HeaderCSS.link}`}>
+                About
               </Nav.Link>
-              <Nav.Link href="#" className={`${HeaderCSS.link}`}>
-                <span>S</span>kills
+              <Nav.Link href="#skills" className={`${HeaderCSS.link}`}>
+                Skills
               </Nav.Link>
-              <Nav.Link href="#" className={`${HeaderCSS.link}`}>
-                <span>P</span>rojects
-              </Nav.Link>
-              <Nav.Link href="#" className={`${HeaderCSS.link}`}>
-                <span>C</span>ontacts
-              </Nav.Link>
-            </Nav>
-
-            <Nav>
-              <Nav.Link
-                href="/resume/CV.pdf"
-                download
-                className={`${HeaderCSS.resume}`}
-              >
-                Download CV
+              <Nav.Link href="#projects" className={`${HeaderCSS.link}`}>
+                Projects
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

@@ -1,0 +1,36 @@
+.container {
+  gap: 1rem;
+}
+
+.card {
+  background-color: #1f2833 !important;
+  border: none;
+}
+
+.title {
+  color: #c5c6c7;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.text {
+  color: #45a29e;
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn {
+  text-decoration: none;
+  color: #c5c6c7;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 1px solid #66fcf1;
+  padding: 0.3rem 1rem;
+  margin-bottom: 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  color: #1f2833;
+  background-color: #45a29e;
+}

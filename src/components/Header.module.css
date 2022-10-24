@@ -3,19 +3,11 @@
 }
 
 .link {
-  color: white !important;
+  color: #c5c6c7 !important;
+
   font-weight: 700 !important;
 }
 
 .link:hover {
-  color: red !important;
-}
-
-.resume {
-  color: white !important;
-  font-weight: 700;
-}
-
-.link span {
-  color: red;
+  color: #45a29e !important;
 }

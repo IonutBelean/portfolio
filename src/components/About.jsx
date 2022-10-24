@@ -12,9 +12,17 @@ const About = () => {
         />
       </div>
       <div className={`${AboutCSS.text_box}`}>
-        Hardworker, organised person, motivated to learn new things. Great in
-        communication, teamplayer, fast learner, problem-solving, adapting to
-        work conditions.
+        <div>
+          Hardworker, organised person, motivated to learn new things. Great in
+          communication, teamplayer, fast learner, problem-solving, adapting to
+          work conditions.
+        </div>
+        <div>
+          <a href="/resume/CV.pdf" download className={`${AboutCSS.resume}`}>
+            {" "}
+            Download CV
+          </a>
+        </div>
       </div>
     </Container>
   );
