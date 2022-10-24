@@ -36,36 +36,32 @@
   color: #66fcf1;
 }
 
-.contact {
-  margin-top: 2rem;
+.contact,
+.contact_bottom {
   text-decoration: none;
-  color: #c5c6c7;
   font-size: 1.2rem;
   font-weight: 500;
-  border: 1px solid #66fcf1;
-  padding: 0.5rem 2rem;
-  margin-bottom: 0.5rem;
+  color: #c5c6c7;
   transition: all 0.5s;
+  border: 1px solid #66fcf1;
+  transition: all 0.3s;
 }
 
-.contact:hover {
-  color: #1f2833;
-  background-color: #45a29e;
+.contact {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 2rem;
 }
 
 .contact_bottom {
   display: flex;
   justify-content: center;
   align-items: center;
+
   height: 6rem;
   width: 6rem;
-  text-decoration: none;
-  color: #c5c6c7;
-  font-size: 1rem;
-  font-weight: 500;
-  border: 1px solid #66fcf1;
+
   border-radius: 50%;
-  transition: all 0.5s;
   padding: 0.5rem 0.5rem;
 
   position: fixed;
@@ -73,11 +69,11 @@
   right: 2rem;
 }
 
-s .contact_bottom:hover {
+.contact:hover,
+.contact_bottom:hover {
   color: #1f2833;
   background-color: #45a29e;
 }
-
 .about {
   background-color: #0b0c10;
 }
