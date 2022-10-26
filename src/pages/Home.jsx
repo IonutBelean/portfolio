@@ -7,6 +7,7 @@ import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import { useState } from "react";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [position, setPosition] = useState(true);
@@ -88,6 +89,9 @@ const Home = () => {
           </h2>
           <Contact />
         </Container>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

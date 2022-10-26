@@ -44,17 +44,32 @@ const Contact = () => {
         >
           <Form.Group className="mb-3" controlId="formBasicName">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="text" placeholder="Your Name" name="name" />
+            <Form.Control
+              type="text"
+              placeholder="Your Name"
+              name="name"
+              className={`${ContactCSS.name}`}
+            />
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" name="email" />
+            <Form.Control
+              type="email"
+              placeholder="Enter email"
+              name="email"
+              className={`${ContactCSS.email}`}
+            />
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="Form.ControlTextarea1">
             <Form.Label>Message</Form.Label>
-            <Form.Control as="textarea" rows={3} name="message" />
+            <Form.Control
+              as="textarea"
+              rows={3}
+              name="message"
+              className={`${ContactCSS.message}`}
+            />
           </Form.Group>
 
           <Button type="submit" className={`${ContactCSS.btn}`}>

@@ -11,10 +11,27 @@
   border-radius: 10px;
 }
 
+.name,
+.email,
+.message {
+  background-color: #c5c6c7 !important;
+  color: #0b0c10 !important;
+  font-weight: 700;
+}
+
+.name::placeholder {
+  color: #45a29e !important;
+  font-weight: 500 !important;
+}
+.email::placeholder {
+  color: #45a29e !important;
+  font-weight: 500 !important;
+}
+
 .btn {
   background-color: #0b0c10 !important;
 
-  color: #c5c6c7;
+  color: #c5c6c7 !important;
   font-size: 1.2rem;
   font-weight: 500 !important;
   border: 1px solid #66fcf1 !important;
