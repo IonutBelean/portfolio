@@ -1,0 +1,15 @@
+.image {
+  height: 10rem;
+  width: 10rem;
+}
+
+.secondary {
+  padding-bottom: 2rem;
+  color: #c5c6c7;
+
+  text-align: center;
+}
+
+.secondary span {
+  color: #66fcf1;
+}

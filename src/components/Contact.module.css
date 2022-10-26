@@ -1,0 +1,29 @@
+.container {
+  padding-bottom: 2rem;
+}
+
+.form {
+  width: 30rem;
+  color: #c5c6c7;
+  font-weight: 500;
+  background-color: #0b0c10;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #0b0c10 !important;
+
+  color: #c5c6c7;
+  font-size: 1.2rem;
+  font-weight: 500 !important;
+  border: 1px solid #66fcf1 !important;
+  padding: 0.5rem 2rem !important;
+  margin-bottom: 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+  color: #1f2833 !important;
+  background-color: #45a29e !important;
+}

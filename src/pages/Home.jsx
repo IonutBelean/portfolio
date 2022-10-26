@@ -6,6 +6,7 @@ import HomeCSS from "./Home.module.css";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import { useState } from "react";
+import Contact from "../components/Contact";
 
 const Home = () => {
   const [position, setPosition] = useState(true);
@@ -19,6 +20,19 @@ const Home = () => {
   };
   window.addEventListener("scroll", changePosition);
 
+  // window.addEventListener("scroll", () => {
+  //   const scrollPosition = window.scrollY;
+  //   const contact = document.getElementById("contact");
+
+  //   if (scrollPosition > 250) {
+  //     contact.style.position = "fixed";
+  //     contact.style.right = "20px";
+  //     contact.style.bottom = "20px";
+  //   } else {
+  //     contact.style.position = "relative";
+  //   }
+  // });
+
   return (
     <div className={`${HomeCSS.main}`}>
       <div className={`${HomeCSS.home}`}>
@@ -30,11 +44,12 @@ const Home = () => {
           </h1>
           <h3>Junior Front-end Developer</h3>
           <a
-            href="#"
+            href="#contact"
             className={
-              position ? `${HomeCSS.contact}` : `${HomeCSS.contact_bottom}`
+              position
+                ? `${HomeCSS.initial_state}`
+                : `${HomeCSS.secondary_state}`
             }
-            id="contact"
           >
             Contact
           </a>
@@ -64,6 +79,14 @@ const Home = () => {
             Proj<span>ects</span>
           </h2>
           <Projects />
+        </Container>
+      </div>
+      <div className={`${HomeCSS.contact}`} id="contact">
+        <Container className={`${HomeCSS.contact_container}`}>
+          <h2 className={`${HomeCSS.secondary_heading}`}>
+            Con<span>tact</span>
+          </h2>
+          <Contact />
         </Container>
       </div>
     </div>

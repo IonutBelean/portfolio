@@ -36,50 +36,68 @@
   color: #66fcf1;
 }
 
-.contact,
-.contact_bottom {
+.initial_state,
+.secondary_state {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 500;
   color: #c5c6c7;
   transition: all 0.5s;
   border: 1px solid #66fcf1;
-  transition: all 0.3s;
+
+  /* -webkit-transition: all 0.5s ease-out; */
+  /* -moz-transition: all 0.5s ease-out; */
+  /* -o-transition: all 0.5s ease-out; */
+  transition: all 0.5s ease-out;
 }
 
-.contact {
+.initial_state {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   padding: 0.5rem 2rem;
 }
 
-.contact_bottom {
+.secondary_state {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+
+  color: #1f2833;
+  background-color: #45a29e;
+
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+
   display: flex;
   justify-content: center;
   align-items: center;
-
-  height: 6rem;
-  width: 6rem;
-
-  border-radius: 50%;
-  padding: 0.5rem 0.5rem;
-
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
 }
 
-.contact:hover,
-.contact_bottom:hover {
+.initial_state:hover {
   color: #1f2833;
   background-color: #45a29e;
 }
+
+.secondary_state:hover {
+  color: #c5c6c7;
+
+  background-color: #1f2833;
+}
+
 .about {
   background-color: #0b0c10;
 }
 
 .projects {
   background-color: #0b0c10;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* .clip {
