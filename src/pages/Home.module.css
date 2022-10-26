@@ -75,6 +75,24 @@
   align-items: center;
 }
 
+.secondary_state::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  border-radius: 50%;
+  border: 1px solid #45a29e;
+  animation: pulse 1s infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
 .initial_state:hover {
   color: #1f2833;
   background-color: #45a29e;
@@ -157,3 +175,24 @@
     background-position: 49% 0%;
   }
 } */
+
+@media (max-width: 700px) {
+  .secondary_state {
+    height: 3rem;
+    width: 3rem;
+    font-size: 0.8rem;
+
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .secondary_state {
+    height: 3rem;
+    width: 3rem;
+    font-size: 0.8rem;
+
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
+}
