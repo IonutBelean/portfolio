@@ -1,5 +1,7 @@
 .container {
-  gap: 1rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
 }
 
 .card {

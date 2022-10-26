@@ -1,22 +1,23 @@
 .container {
-  padding: 3rem 0;
+  padding: 2rem 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .img_box {
-  flex: 2;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .text_box {
-  flex: 2;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 
   color: #c5c6c7;
 
@@ -25,18 +26,17 @@
 
 .img {
   height: 18rem;
-  width: auto;
   border-radius: 10px;
 }
 
 .resume {
+  width: 2rem;
   text-decoration: none;
   color: #c5c6c7;
   font-size: 1.2rem;
   font-weight: 500;
   border: 1px solid #66fcf1;
   padding: 0.5rem 1rem;
-  margin-bottom: 0.5rem;
   transition: 0.3s ease-in-out;
 }
 

@@ -4,7 +4,7 @@ import ProjectsCSS from "./Projects.module.css";
 const Projects = () => {
   return (
     <Container
-      className={`${ProjectsCSS.container} d-flex justify-content-center p-5`}
+      className={`${ProjectsCSS.container} d-flex justify-content-center `}
     >
       {" "}
       <Card style={{ width: "18rem" }} className={`${ProjectsCSS.card}`}>
