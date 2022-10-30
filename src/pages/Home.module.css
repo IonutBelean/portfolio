@@ -104,6 +104,11 @@
   background-color: #1f2833;
 }
 
+.head {
+  position: absolute;
+  bottom: 5rem;
+}
+
 .about {
   background-color: #0b0c10;
 }

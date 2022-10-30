@@ -8,6 +8,7 @@ import Projects from "../components/Projects";
 import { useState } from "react";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Head from "../components/Head";
 
 const Home = () => {
   const [position, setPosition] = useState(true);
@@ -54,8 +55,10 @@ const Home = () => {
           >
             Contact
           </a>
+          <div className={`${HomeCSS.head}`}>
+            <Head />
+          </div>
         </Container>
-        <Contacts />
       </div>
       <div className={`${HomeCSS.about}`} id="about">
         <Container>
@@ -93,6 +96,7 @@ const Home = () => {
       <div>
         <Footer />
       </div>
+      <Contacts />
     </div>
   );
 };
