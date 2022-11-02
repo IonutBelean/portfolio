@@ -2,11 +2,51 @@
   gap: 2rem;
   flex-wrap: wrap;
   padding-bottom: 2rem;
+  position: relative;
 }
 
 .card {
-  background-color: #1f2833 !important;
+  background-color: transparent !important;
   border: none;
+  position: relative;
+  transition: 0.5s;
+}
+
+.card:hover {
+  background-color: #1f2833 !important;
+}
+
+.face {
+  transition: 0.4s;
+}
+
+.face1 {
+  z-index: 1;
+  height: 10rem;
+
+  transform: translateY(100px);
+}
+
+.face2 {
+  height: 10rem;
+}
+
+.face2 {
+  position: relative;
+  transform: translateY(-80px);
+}
+
+.card:hover .face.face1 {
+  transform: translateY(0);
+}
+
+.card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.img {
+  height: 100%;
+  width: 100%;
 }
 
 .title {
