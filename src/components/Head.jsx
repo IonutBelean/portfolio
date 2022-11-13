@@ -13,23 +13,21 @@ import HeadCSS from "./Head.module.css";
 //     eye.style.transform = "rotate(" + rotation + "deg)";
 //   });
 // };
-
 document.addEventListener("mousemove", (e) => {
   const mouseX = e.clientX;
   const mouseY = e.clientY;
 
   const anchor = document.querySelectorAll(".eye");
-  const rekt = anchor.getBoundingClientRect();
+
+  const rekt = anchor[0].getBoundingClientRect();
   const anchorX = rekt.left + rekt.width / 2;
   const anchorY = rekt.top + rekt.height / 2;
 
   const angleDeg = angle(mouseX, mouseY, anchorX, anchorY);
 
-  console.log(angleDeg);
-
   const eyes = document.querySelectorAll(".eye");
   eyes.forEach((eye) => {
-    eye.style.transform = `rotate(${90 + angleDeg}deg)`;
+    eye.style.transform = `rotate(${130 + angleDeg}deg)`;
   });
 });
 
@@ -63,10 +61,10 @@ const Head = () => {
       <div className={`${HeadCSS.ear_left}`}></div>
       <div className={`${HeadCSS.ear_right}`}></div>
       <div className={`${HeadCSS.head}`}>
-        <div className={`${HeadCSS.eye_left}`}>
+        <div className={`${HeadCSS.eye_left} eye`}>
           <div className={`${HeadCSS.eye_left_inner} eye`}></div>
         </div>
-        <div className={`${HeadCSS.eye_right}`}>
+        <div className={`${HeadCSS.eye_right} eye`}>
           <div className={`${HeadCSS.eye_right_inner} eye`}></div>
         </div>
         <div className={`${HeadCSS.nose}`}></div>

@@ -20,7 +20,9 @@ const Projects = () => {
             Gym Brochure
           </Card.Title>
           <Card.Text className={`${ProjectsCSS.text}`}>
-            Html CSS Javascript
+            <img src="/images/html.PNG" alt="Html icon language" />
+            <img src="/images/css.PNG" alt="CSS icon language" />
+            <img src="/images/javascript.PNG" alt="JavaScript icon language" />
           </Card.Text>
           <div className="d-flex justify-content-around">
             <Card.Link
@@ -52,7 +54,10 @@ const Projects = () => {
           <Card.Title className={`${ProjectsCSS.title}`}>
             API's Movies
           </Card.Title>
-          <Card.Text className={`${ProjectsCSS.text}`}>React</Card.Text>
+          <Card.Text className={`${ProjectsCSS.text}`}>
+            {" "}
+            <img src="/images/react.PNG" alt="React icon framework" />
+          </Card.Text>
           <div className={`${ProjectsCSS.btns} d-flex justify-content-around`}>
             <Card.Link
               href="https://apimoviesproject.netlify.app"

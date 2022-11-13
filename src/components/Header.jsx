@@ -13,7 +13,7 @@ const Header = () => {
         <div>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className={`me-auto text-uppercase`}>
+            <Nav>
               <Nav.Link href="#" className={`${HeaderCSS.link}`}>
                 Home
               </Nav.Link>

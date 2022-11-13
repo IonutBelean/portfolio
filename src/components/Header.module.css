@@ -11,3 +11,17 @@
 .link:hover {
   color: #45a29e !important;
 }
+
+.links {
+  position: relative;
+}
+
+.underline {
+  height: 3px;
+  width: 100%;
+  background-color: #45a29e;
+  position: absolute;
+  left: 0;
+  bottom: -0.3rem;
+  transition: 0.4s;
+}

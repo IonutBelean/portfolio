@@ -19,21 +19,23 @@ const Home = () => {
     } else {
       setPosition(false);
     }
+
+    // const contact = document.querySelector("#contact");
+    // const firstContact = document.querySelector("#first_contact");
+
+    // const contactFormTop =
+    //   window.pageYOffset + contact.getBoundingClientRect().top;
+
+    // const contactHero =
+    //   window.pageYOffset + firstContact.getBoundingClientRect().top;
+
+    // if (contactFormTop < contactHero) {
+    //   firstContact.style.visibility = "hidden";
+    // } else {
+    //   firstContact.style.visibility = "visible";
+    // }
   };
   window.addEventListener("scroll", changePosition);
-
-  // window.addEventListener("scroll", () => {
-  //   const scrollPosition = window.scrollY;
-  //   const contact = document.getElementById("contact");
-
-  //   if (scrollPosition > 250) {
-  //     contact.style.position = "fixed";
-  //     contact.style.right = "20px";
-  //     contact.style.bottom = "20px";
-  //   } else {
-  //     contact.style.position = "relative";
-  //   }
-  // });
 
   return (
     <div className={`${HomeCSS.main}`}>
@@ -52,6 +54,7 @@ const Home = () => {
                 ? `${HomeCSS.initial_state}`
                 : `${HomeCSS.secondary_state}`
             }
+            id="first_contact"
           >
             Contact
           </a>

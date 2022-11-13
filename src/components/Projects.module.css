@@ -1,4 +1,5 @@
 .container {
+  display: flex;
   gap: 2rem;
   flex-wrap: wrap;
   padding-bottom: 2rem;
@@ -10,10 +11,13 @@
   border: none;
   position: relative;
   transition: 0.5s;
+  height: 20rem !important;
 }
 
 .card:hover {
   background-color: #1f2833 !important;
+  border: 2px solid #45a29e;
+  box-shadow: 0 0 10px 0 #45a29e;
 }
 
 .face {
@@ -23,6 +27,7 @@
 .face1 {
   z-index: 1;
   height: 10rem;
+  box-shadow: 0 0 10px 0 #1f2833;
 
   transform: translateY(100px);
 }
@@ -33,7 +38,7 @@
 
 .face2 {
   position: relative;
-  transform: translateY(-80px);
+  transform: translateY(-120px);
 }
 
 .card:hover .face.face1 {
@@ -52,13 +57,24 @@
 .title {
   color: #c5c6c7;
   text-align: center;
-  padding-top: 1rem;
+  padding: 1rem 0;
+  transition: 0.3s all;
+}
+.card:hover .title {
+  padding: 1rem 0 0.5rem 0;
 }
 
 .text {
   color: #45a29e;
   text-align: center;
   font-weight: 500;
+}
+
+.text img {
+  height: 2rem;
+  margin: 0 1rem;
+  filter: invert(53%) sepia(62%) saturate(338%) hue-rotate(128deg)
+    brightness(94%) contrast(91%);
 }
 
 .btn {

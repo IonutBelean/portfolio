@@ -18,11 +18,17 @@
   color: #0b0c10 !important;
   font-weight: 700;
 }
+.name:focus,
+.email:focus,
+.message:focus {
+  outline: 4px solid #45a29e !important;
+}
 
 .name::placeholder {
   color: #45a29e !important;
   font-weight: 500 !important;
 }
+
 .email::placeholder {
   color: #45a29e !important;
   font-weight: 500 !important;
