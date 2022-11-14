@@ -1,11 +1,20 @@
+.container .navbar-nav {
+}
+
 .navbar {
   background-color: transparent;
+}
+
+.container span {
+  filter: invert(53%) sepia(62%) saturate(338%) hue-rotate(128deg)
+    brightness(94%) contrast(91%);
 }
 
 .link {
   color: #c5c6c7 !important;
 
   font-weight: 700 !important;
+  z-index: 9999;
 }
 
 .link:hover {
@@ -24,4 +33,14 @@
   left: 0;
   bottom: -0.3rem;
   transition: 0.4s;
+}
+
+.show {
+  color: #45a29e !important;
+}
+
+.collapse {
+  z-index: 9999;
+  display: flex;
+  align-items: center;
 }
