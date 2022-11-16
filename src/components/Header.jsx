@@ -3,9 +3,9 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className={`${HeaderCSS.navbar}`}>
-      <Container className={`${HeaderCSS.container}  `}>
-        <Navbar.Brand href="#home" className={`${HeaderCSS.link} `}>
+    <Navbar expand="lg" className={`${HeaderCSS.navbar} `}>
+      <Container className={`${HeaderCSS.container} `}>
+        <Navbar.Brand href="#home" className={`${HeaderCSS.logo} `}>
           Ioan Belean
         </Navbar.Brand>
         <Navbar.Toggle
@@ -14,7 +14,7 @@ const Header = () => {
         />
         <Navbar.Collapse
           id="basic-navbar-nav"
-          // className={`${HeaderCSS.collapse}`}
+          className={`${HeaderCSS.collapse} ${HeaderCSS.show}`}
         >
           <Nav className={`${HeaderCSS.collapse}`}>
             <Nav.Link href="#" className={`${HeaderCSS.link}`}>

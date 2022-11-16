@@ -5,21 +5,29 @@ const Contacts = () => {
     <div
       className={`${ContactsCSS.wrapper} d-flex flex-column justify-content-center align-items-center`}
     >
-      <a href="https://github.com/IonutBelean" target="_blank">
+      <a href="https://github.com/IonutBelean" target="_blank" rel="noreferrer">
         <img
           src="/contact/github-contact.PNG"
           alt="Github."
           className={`${ContactsCSS.img1}`}
         />
       </a>
-      <a href="https://www.instagram.com/ionut.belean" target="_blank">
+      <a
+        href="https://www.instagram.com/ionut.belean"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img
           src="/contact/instagram.PNG"
           alt="Github."
           className={`${ContactsCSS.img2}`}
         />
       </a>
-      <a href="https://www.facebook.com/ionutbelean91" target="_blank">
+      <a
+        href="https://www.facebook.com/ionutbelean91"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img
           src="/contact/facebook.PNG"
           alt="Github."
