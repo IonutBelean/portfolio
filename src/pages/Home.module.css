@@ -7,11 +7,11 @@
   height: 100vh;
   position: relative;
   background-image: linear-gradient(
-      to right,
-      rgba(31, 40, 51, 0.94),
-      rgba(11, 12, 16, 0.94)
-    ),
-    url(/public/images/front.webp);
+    to right,
+    rgba(31, 40, 51, 0.94),
+    rgba(11, 12, 16, 0.94)
+  );
+  /* url(/public/images/front.webp); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
