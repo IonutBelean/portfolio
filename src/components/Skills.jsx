@@ -1,16 +1,22 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import SkillsCSS from "./Skills.module.css";
 import { motion } from "framer-motion";
 
 const leftImageAnimation = {
   offscreen: { x: -100, opacity: 0 },
-  onscreen: { x: 0, opacity: 1 },
-  transition: { type: "spring", bounce: 0.4, duration: 1 },
+  onscreen: {
+    x: 0,
+    opacity: 1,
+    transition: { type: "spring", stiffness: 120 },
+  },
 };
 const rightImageAnimation = {
   offscreen: { x: 100, opacity: 0 },
-  onscreen: { x: 0, opacity: 1 },
-  transition: { type: "spring", bounce: 0.4, duration: 1 },
+  onscreen: {
+    x: 0,
+    opacity: 1,
+    transition: { type: "spring", stiffness: 120 },
+  },
 };
 
 // const imagesAndText = [
@@ -31,8 +37,8 @@ const Skills = () => {
     <Container className={`${SkillsCSS.container}`}>
       <motion.ul
         className={`${SkillsCSS.wrapper}`}
-        initial={"offscreen"}
-        whileInView={"onscreen"}
+        initial="offscreen"
+        whileInView="onscreen"
         viewport={{ once: false, amount: 0.2 }}
         transition={{ staggerChildren: 0.2 }}
       >
@@ -56,10 +62,7 @@ const Skills = () => {
           <img src="/images/bootstrap.PNG" alt="BootsTrap icon framework" />
           <p>Bootstrap</p>
         </motion.li>
-        <motion.li
-          className={`${SkillsCSS.github}`}
-          variants={rightImageAnimation}
-        >
+        <motion.li variants={rightImageAnimation}>
           <img src="/images/github.PNG" alt="GitHub icon tool" />
           <p>GitHub</p>
         </motion.li>

@@ -49,11 +49,6 @@
   transform: translateY(0);
 }
 
-.img {
-  height: 100%;
-  width: 100%;
-}
-
 .title {
   color: #c5c6c7;
   text-align: center;
@@ -62,6 +57,10 @@
 }
 .card:hover .title {
   padding: 1rem 0 0.5rem 0;
+}
+
+.img {
+  height: 100%;
 }
 
 .text {

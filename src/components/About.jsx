@@ -4,24 +4,32 @@ import { motion } from "framer-motion";
 
 const imageAnimation = {
   offscreen: { y: 100, opacity: 0 },
-  onscreen: { y: 0, opacity: 1 },
-  transition: { type: "spring", bounce: 0.5, duration: 5 },
+  onscreen: {
+    y: 0,
+    opacity: 1,
+    transition: { type: "spring", stiffness: 120, duration: 0.5 },
+  },
 };
 const borderAnimation = {
   offscreen: { opacity: 0 },
-  onscreen: { opacity: 1 },
-  transition: { type: "spring", bounce: 0.5, duration: 0 },
+  onscreen: {
+    scale: [1, 1.1, 1],
+    opacity: 1,
+    transition: { delay: 0.5, bounce: 0.5, duration: 1 },
+  },
 };
 const textAnimation = {
   offscreen: { x: 100, opacity: 0 },
-  onscreen: { x: 0, opacity: 1 },
-  transition: { type: "spring", bounce: 0.5, duration: 0 },
+  onscreen: {
+    x: 0,
+    opacity: 1,
+    transition: { type: "spring", bounce: 0.5, duration: 2 },
+  },
 };
 
 const resumeAnimation = {
   offscreen: { x: 100, opacity: 0 },
-  onscreen: { x: 0, opacity: 1 },
-  transition: { type: "spring", bounce: 0.5, duration: 0 },
+  onscreen: { x: 0, opacity: 1, transition: { type: "spring", delay: 0.5 } },
 };
 
 const About = () => {

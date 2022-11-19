@@ -18,7 +18,7 @@
 .img1,
 .img2,
 .img3 {
-  width: 3rem;
+  width: 2.5rem;
   animation: float 5s ease-in-out infinite;
   filter: invert(53%) sepia(62%) saturate(338%) hue-rotate(128deg)
     brightness(94%) contrast(91%);
