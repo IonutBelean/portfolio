@@ -20,7 +20,7 @@ const Home = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 3000);
   }, []);
 
   const changePosition = () => {
@@ -50,12 +50,14 @@ const Home = () => {
   return (
     <div>
       {loading ? (
-        <FadeLoader
-          color={"#66fcf1"}
-          loading={loading}
-          size={100}
-          className={`${HomeCSS.loader}`}
-        />
+        <div className={`${HomeCSS.loader_container}`}>
+          <FadeLoader
+            color={"#66fcf1"}
+            loading={loading}
+            // size={000}
+            className={`${HomeCSS.loader}`}
+          />
+        </div>
       ) : (
         <div className={`${HomeCSS.main}`}>
           <div className={`${HomeCSS.home}`}>
