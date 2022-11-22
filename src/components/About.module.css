@@ -14,6 +14,7 @@
 }
 
 .text_box {
+  z-index: 1;
   height: 100%;
   width: 90%;
   display: flex;
@@ -90,12 +91,20 @@
     left: 1rem;
   }
 }
+@media (max-width: 940px) {
+  .container {
+    padding-bottom: 6rem;
+  }
+}
 @media (max-width: 770px) {
   .text_box {
     width: 100%;
   }
   .border {
     left: 6rem;
+  }
+  .container {
+    padding-bottom: 7rem;
   }
 }
 @media (max-width: 650px) {

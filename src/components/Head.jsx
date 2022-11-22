@@ -43,24 +43,25 @@ const angle = (cx, cy, ex, ey) => {
 const Head = () => {
   return (
     <div className={`${HeadCSS.container}`}>
-      {/* <div className={`${HeadCSS.top_hair}`}></div>
-      <div className={`${HeadCSS.top_hair2}`}></div>
-      <div className={`${HeadCSS.top_hair3}`}></div>
-      <div className={`${HeadCSS.top_hair4}`}></div>
-      <div className={`${HeadCSS.top_hair5}`}></div>
-      <div className={`${HeadCSS.top_hair6}`}></div>
-      <div className={`${HeadCSS.top_hair7}`}></div>
-      <div className={`${HeadCSS.top_hair8}`}></div>
-      <div className={`${HeadCSS.top_hair9}`}></div>
-      <div className={`${HeadCSS.top_hair10}`}></div>
-      <div className={`${HeadCSS.top_hair11}`}></div>
-      <div className={`${HeadCSS.top_hair12}`}></div>
-      <div className={`${HeadCSS.top_hair13}`}></div>
-      <div className={`${HeadCSS.top_hair14}`}></div>
-      <div className={`${HeadCSS.top_hair15}`}></div> */}
-      <div className={`${HeadCSS.ear_left}`}></div>
-      <div className={`${HeadCSS.ear_right}`}></div>
       <div className={`${HeadCSS.head}`}>
+        <div className={`${HeadCSS.top_hair}`}></div>
+        <div className={`${HeadCSS.top_hair2}`}></div>
+        <div className={`${HeadCSS.top_hair3}`}></div>
+        <div className={`${HeadCSS.top_hair4}`}></div>
+        <div className={`${HeadCSS.top_hair5}`}></div>
+        <div className={`${HeadCSS.top_hair6}`}></div>
+        <div className={`${HeadCSS.top_hair7}`}></div>
+        <div className={`${HeadCSS.top_hair8}`}></div>
+        <div className={`${HeadCSS.top_hair9}`}></div>
+        <div className={`${HeadCSS.top_hair10}`}></div>
+        <div className={`${HeadCSS.top_hair11}`}></div>
+        <div className={`${HeadCSS.top_hair12}`}></div>
+        <div className={`${HeadCSS.top_hair13}`}></div>
+        <div className={`${HeadCSS.top_hair14}`}></div>
+        <div className={`${HeadCSS.top_hair15}`}></div>
+        <div className={`${HeadCSS.top_hair16}`}></div>
+        <div className={`${HeadCSS.ear_left}`}></div>
+        <div className={`${HeadCSS.ear_right}`}></div>
         <div className={`${HeadCSS.eye_left} eye`}>
           <div className={`${HeadCSS.eye_left_inner} eye`}></div>
         </div>

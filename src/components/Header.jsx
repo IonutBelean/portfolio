@@ -6,7 +6,7 @@ const Header = () => {
     <Navbar expand="lg" className={`${HeaderCSS.navbar} `}>
       <Container className={`${HeaderCSS.container} `}>
         <Navbar.Brand href="#home" className={`${HeaderCSS.logo} `}>
-          Ioan Belean
+          <img src="/images/logo.png" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"

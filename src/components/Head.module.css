@@ -15,7 +15,7 @@
 
   position: relative;
 
-  overflow: hidden;
+  /* overflow: hidden; */
 
   box-shadow: 0.5vmin 0.5vmin 0 0 #0b0c10, -0.5vmin 0.5vmin 0 0 #0b0c10,
     -3px -45px #0b0c10, 3px -45px #0b0c10;
@@ -189,176 +189,188 @@
   border-radius: 100% / 50% 50% 120% 120%;
   position: absolute;
   left: 8%;
-  bottom: -5%;
+  bottom: -2%;
 }
 
 .ear_left {
+  z-index: -1;
   width: 10%;
   height: 25%;
-  background-color: yellowgreen;
+  background-color: #0b0c10;
   border-radius: 70% 70% 50% 100%;
   position: absolute;
   top: 30%;
-  left: 20%;
+  left: -15px;
 }
 
 .ear_right {
+  z-index: -1;
   width: 10%;
   height: 25%;
-  background-color: yellowgreen;
+  background-color: #0b0c10;
   border-radius: 70% 70% 100% 50%;
   position: absolute;
   top: 30%;
-  right: 20%;
+  right: -15px;
 }
 
 .top_hair {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 5%;
-  left: 21%;
+  top: -40px;
+  left: 0;
   transform: rotate(20deg);
 }
 .top_hair2 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 4%;
-  left: 24%;
+  top: -45px;
+  left: 10px;
   transform: rotate(15deg);
 }
 .top_hair3 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 3%;
-  left: 27%;
-  transform: rotate(20deg);
+  top: -52px;
+  left: 25px;
+  transform: rotate(15deg);
 }
 .top_hair4 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 2%;
-  left: 30%;
+  top: -55px;
+  left: 35px;
   transform: rotate(21deg);
 }
 .top_hair5 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 1%;
-  left: 32%;
+  top: -60px;
+  left: 45px;
   transform: rotate(25deg);
 }
 .top_hair6 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 1%;
-  left: 35%;
+  top: -62px;
+  left: 58px;
   transform: rotate(15deg);
 }
 .top_hair7 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 1%;
-  left: 38%;
+  top: -63px;
+  left: 70px;
   transform: rotate(5deg);
 }
 .top_hair8 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 1%;
-  left: 40%;
+  top: -64px;
+  left: 80px;
   transform: rotate(-5deg);
 }
 .top_hair9 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 1%;
-  left: 43%;
+  top: -66px;
+  left: 95px;
   transform: rotate(-15deg);
 }
 .top_hair10 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 1%;
-  left: 46%;
+  top: -67px;
+  left: 110px;
   transform: rotate(-25deg);
 }
 .top_hair11 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 2%;
-  left: 62%;
+  top: -66px;
+  left: 125px;
   transform: rotate(-25deg);
 }
 .top_hair12 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 3%;
-  left: 64%;
+  top: -64px;
+  left: 140px;
   transform: rotate(-28deg);
 }
 .top_hair13 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 4%;
-  left: 67%;
+  top: -61px;
+  left: 155px;
   transform: rotate(-29deg);
 }
 .top_hair14 {
-  width: 5%;
+  width: 10%;
   height: 15%;
-  background-color: blue;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 5%;
-  left: 69.5%;
+  top: -54px;
+  left: 170px;
   transform: rotate(-23deg);
 }
 .top_hair15 {
-  z-index: 1;
-  width: 15rem;
-  height: 10%;
-  background-color: blue;
+  width: 10%;
+  height: 15%;
+  background-color: #0b0c10;
   border-radius: 50%;
   position: absolute;
-  top: 7%;
-  left: 30%;
+  top: -48px;
+  left: 185px;
+  transform: rotate(-23deg);
+}
+.top_hair16 {
+  width: 10%;
+  height: 15%;
+  background-color: #0b0c10;
+  border-radius: 50%;
+  position: absolute;
+  top: -38px;
+  left: 200px;
+  transform: rotate(-23deg);
 }

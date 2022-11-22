@@ -12,12 +12,8 @@
     brightness(94%) contrast(91%);
 }
 
-.logo {
-  color: #c5c6c7;
-  font-weight: bolder;
-}
-.logo:hover {
-  color: #c5c6c7;
+.logo img {
+  height: 4rem;
 }
 
 .link {
