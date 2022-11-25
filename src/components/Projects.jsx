@@ -73,7 +73,7 @@ const Projects = () => {
             </div>
             <div className={`${ProjectsCSS.face} ${ProjectsCSS.face2}`}>
               <Card.Title className={`${ProjectsCSS.title}`}>
-                API's Movies
+                API Movies
               </Card.Title>
               <Card.Text className={`${ProjectsCSS.text}`}>
                 {" "}
