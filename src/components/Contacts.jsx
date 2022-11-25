@@ -13,14 +13,25 @@ const Contacts = () => {
         />
       </a>
       <a
+        href="https://www.linkedin.com/in/ioan-belean/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          src="/contact/linkedin.png"
+          alt="LinkedIn."
+          className={`${ContactsCSS.img2}`}
+        />
+      </a>
+      <a
         href="https://www.instagram.com/ionut.belean"
         target="_blank"
         rel="noreferrer"
       >
         <img
           src="/contact/instagram.PNG"
-          alt="Github."
-          className={`${ContactsCSS.img2}`}
+          alt="Instagram."
+          className={`${ContactsCSS.img3}`}
         />
       </a>
       <a
@@ -30,10 +41,11 @@ const Contacts = () => {
       >
         <img
           src="/contact/facebook.PNG"
-          alt="Github."
-          className={`${ContactsCSS.img3}`}
+          alt="Facebook."
+          className={`${ContactsCSS.img4}`}
         />
       </a>
+
       <div className={`${ContactsCSS.line}`}></div>
     </div>
   );

@@ -1,18 +1,5 @@
 import HeadCSS from "./Head.module.css";
 
-// document.querySelector("body").addEventListener("mousemove", eyeBall);
-
-// const eyeBall = () => {
-//   const eye = document.querySelectorAll(".eye");
-//   eye.forEach((eye) => {
-//     let x = eye.getBoundingClientRect().left + eye.clientWidth / 2;
-//     let y = eye.getBoundingClientRect().top + eye.clientHeight / 2;
-
-//     let radian = Math.atan2(p.pageX - x, p.pageY - y);
-//     let rotation = radian * (180 / Math.PI) * -1 + 270;
-//     eye.style.transform = "rotate(" + rotation + "deg)";
-//   });
-// };
 document.addEventListener("mousemove", (e) => {
   const mouseX = e.clientX;
   const mouseY = e.clientY;

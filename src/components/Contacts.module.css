@@ -17,7 +17,8 @@
 
 .img1,
 .img2,
-.img3 {
+.img3,
+.img4 {
   width: 2.5rem;
   animation: float 5s ease-in-out infinite;
   filter: invert(53%) sepia(62%) saturate(338%) hue-rotate(128deg)
@@ -30,6 +31,10 @@
 
 .img3 {
   animation-delay: 2s;
+}
+
+.img4 {
+  animation-delay: 3s;
 }
 
 @keyframes float {
@@ -47,7 +52,8 @@
 @media (max-width: 700px) {
   .img1,
   .img2,
-  .img3 {
+  .img3,
+  .img4 {
     width: 2rem;
   }
 

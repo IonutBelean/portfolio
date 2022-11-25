@@ -29,7 +29,7 @@ const textAnimation = {
 
 const resumeAnimation = {
   offscreen: { x: 100, opacity: 0 },
-  onscreen: { x: 0, opacity: 1, transition: { type: "spring", delay: 0.5 } },
+  onscreen: { x: 0, opacity: 1, transition: { type: "spring", delay: 1 } },
 };
 
 const About = () => {

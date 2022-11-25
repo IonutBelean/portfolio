@@ -19,19 +19,6 @@ const rightImageAnimation = {
   },
 };
 
-// const imagesAndText = [
-//   { image: "/images/html.PNG", alt: "HTML icon", text: "HTML" },
-//   { image: "/images/css.PNG", alt: "CSS icon", text: "CSS" },
-//   {
-//     image: "/images/javascript.PNG",
-//     alt: "JavaScript icon",
-//     text: "JavaScript",
-//   },
-//   { image: "/images/react.PNG", alt: "React icon", text: "React" },
-//   { image: "/images/bootstrap.PNG", alt: "Bootstrap icon", text: "Bootstrap" },
-//   { image: "/images/github.PNG", alt: "GitHub icon", text: "GitHub" },
-// ];
-
 const Skills = () => {
   return (
     <Container className={`${SkillsCSS.container}`}>

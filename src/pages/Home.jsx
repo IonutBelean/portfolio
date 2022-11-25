@@ -33,21 +33,6 @@ const Home = () => {
       setPosition(false);
       secondaryState.innerHTML = "Mail";
     }
-
-    // const contact = document.querySelector("#contact");
-    // const firstContact = document.querySelector("#first_contact");
-
-    // const contactFormTop =
-    //   window.pageYOffset + contact.getBoundingClientRect().top;
-
-    // const contactHero =
-    //   window.pageYOffset + firstContact.getBoundingClientRect().top;
-
-    // if (contactFormTop < contactHero) {
-    //   firstContact.style.visibility = "hidden";
-    // } else {
-    //   firstContact.style.visibility = "visible";
-    // }
   };
   window.addEventListener("scroll", changePosition);
 
@@ -58,7 +43,6 @@ const Home = () => {
           <FadeLoader
             color={"#66fcf1"}
             loading={loading}
-            // size={000}
             className={`${HomeCSS.loader}`}
           />
         </div>

@@ -3,7 +3,7 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className={`${HeaderCSS.navbar} `}>
+    <Navbar collapseOnSelect expand="lg" className={`${HeaderCSS.navbar} `}>
       <Container className={`${HeaderCSS.container} `}>
         <Navbar.Brand href="#home" className={`${HeaderCSS.logo} `}>
           <img src="/images/logo.png" />
@@ -17,16 +17,28 @@ const Header = () => {
           className={`${HeaderCSS.collapse} ${HeaderCSS.show}`}
         >
           <Nav className={`${HeaderCSS.collapse}`}>
-            <Nav.Link href="#" className={`${HeaderCSS.link}`}>
+            <Nav.Link href="#" className={`${HeaderCSS.link}`} eventKey="1">
               Home
             </Nav.Link>
-            <Nav.Link href="#about" className={`${HeaderCSS.link}`}>
+            <Nav.Link
+              href="#about"
+              className={`${HeaderCSS.link}`}
+              eventKey="2"
+            >
               About
             </Nav.Link>
-            <Nav.Link href="#skills" className={`${HeaderCSS.link}`}>
+            <Nav.Link
+              href="#skills"
+              className={`${HeaderCSS.link}`}
+              eventKey="3"
+            >
               Skills
             </Nav.Link>
-            <Nav.Link href="#projects" className={`${HeaderCSS.link}`}>
+            <Nav.Link
+              href="#projects"
+              className={`${HeaderCSS.link}`}
+              eventKey="4"
+            >
               Projects
             </Nav.Link>
           </Nav>

@@ -19,7 +19,7 @@ const Projects = () => {
         initial="offscreen"
         whileInView="onscreen"
         viewport={{ once: false, amount: 0.3 }}
-        transition={{ staggerChildren: 0.3 }}
+        transition={{ staggerChildren: 0.6 }}
       >
         {" "}
         <motion.div variants={projectAnimation}>
