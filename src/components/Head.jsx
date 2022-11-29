@@ -6,7 +6,7 @@ document.addEventListener("mousemove", (e) => {
 
   const anchor = document.querySelectorAll(".eye");
 
-  const rekt = anchor[0].getBoundingClientRect();
+  const rekt = anchor[0]?.getBoundingClientRect();
   const anchorX = rekt.left + rekt.width / 2;
   const anchorY = rekt.top + rekt.height / 2;
 
