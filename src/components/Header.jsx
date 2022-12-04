@@ -6,7 +6,7 @@ const Header = () => {
     <Navbar collapseOnSelect expand="lg" className={`${HeaderCSS.navbar} `}>
       <Container className={`${HeaderCSS.container} `}>
         <Navbar.Brand href="#home" className={`${HeaderCSS.logo} `}>
-          <img src="/images/logo.png" />
+          <img src="/images/logo.png" alt="My logo." />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
