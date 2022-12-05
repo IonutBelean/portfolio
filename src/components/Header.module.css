@@ -48,7 +48,3 @@
   flex-grow: 0 !important;
   align-items: center;
 }
-
-.show {
-  z-index: 9999;
-}

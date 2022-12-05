@@ -14,7 +14,7 @@ const Header = () => {
         />
         <Navbar.Collapse
           id="basic-navbar-nav"
-          className={`${HeaderCSS.collapse} ${HeaderCSS.show}`}
+          className={`${HeaderCSS.collapse} `}
         >
           <Nav className={`${HeaderCSS.collapse}`}>
             <Nav.Link href="#" className={`${HeaderCSS.link}`} eventKey="1">

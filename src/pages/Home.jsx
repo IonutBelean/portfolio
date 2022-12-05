@@ -16,8 +16,6 @@ const Home = () => {
   const [position, setPosition] = useState(true);
   const [loading, setLoading] = useState(false);
 
-  const secondaryState = document.querySelector("#first_contact");
-
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -28,10 +26,8 @@ const Home = () => {
   const changePosition = () => {
     if (window.scrollY <= 250) {
       setPosition(true);
-      secondaryState.innerHTML = "Contact";
     } else {
       setPosition(false);
-      secondaryState.innerHTML = "Mail";
     }
   };
   window.addEventListener("scroll", changePosition);
