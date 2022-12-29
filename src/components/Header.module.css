@@ -3,8 +3,13 @@
   justify-content: space-around !important;
 }
 
+.navbar_hidden {
+  background-color: #0b0c10;
+  transition: 1s ease-in-out;
+}
+
 .navbar {
-  background-color: transparent;
+  transition: 1s ease-in-out;
 }
 
 .container span {
@@ -13,7 +18,7 @@
 }
 
 .logo img {
-  height: 4rem;
+  height: 2.5rem;
 }
 
 .link {
@@ -26,25 +31,22 @@
   color: #45a29e !important;
 }
 
-.links {
-  position: relative;
-}
-
-.underline {
-  height: 3px;
-  width: 100%;
-  background-color: #45a29e;
-  position: absolute;
-  left: 0;
-  bottom: -0.3rem;
-  transition: 0.4s;
-}
-
 .show {
   color: #45a29e !important;
 }
 
 .collapse {
+  display: flex;
   flex-grow: 0 !important;
   align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 990px) {
+  .collapse {
+    font-size: 1.5rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(11, 12, 16, 0.5) !important;
+    transition: all 0.5s ease-in;
+  }
 }

@@ -8,7 +8,6 @@ import Projects from "../components/Projects";
 import { useState, useEffect } from "react";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import Head from "../components/Head";
 import { motion } from "framer-motion";
 import FadeLoader from "react-spinners/FadeLoader";
 
@@ -44,13 +43,11 @@ const Home = () => {
         </div>
       ) : (
         <div className={`${HomeCSS.main}`}>
-          <div className={`${HomeCSS.home}`}>
+          <div className={`${HomeCSS.home}`} id="home">
             <div className={`${HomeCSS.clip}`}></div>
             <div className={`${HomeCSS.clip2}`}></div>
-            {/* <div className={`${HomeCSS.clip3}`}></div> */}
             <Header />
             <Container className={`${HomeCSS.hero} `}>
-              {/* <VideoBg /> */}
               <motion.h1
                 className={`${HomeCSS.main_heading} mb-4`}
                 initial={{ scale: 0.2, opacity: 0 }}
@@ -78,9 +75,6 @@ const Home = () => {
               >
                 Contact
               </a>
-              <div className={`${HomeCSS.head}`}>
-                <Head />
-              </div>
             </Container>
           </div>
           <div className={`${HomeCSS.about}`} id="about">

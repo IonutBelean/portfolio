@@ -21,19 +21,17 @@
 .home {
   height: 100vh;
   position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .hero {
   z-index: 2;
   color: #c5c6c7;
-  margin-top: 4rem;
+  height: 100%;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .main_heading {
@@ -65,7 +63,7 @@
   transition: all 0.5s;
   border: 1px solid #66fcf1;
 
-  transition: all 0.5s ease-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .initial_state {
@@ -120,12 +118,6 @@
   color: #c5c6c7;
 
   background-color: #1f2833;
-}
-
-.head {
-  position: absolute;
-  bottom: 0 !important;
-  transform: scale(0.8);
 }
 
 .about {
