@@ -34,6 +34,11 @@
   font-weight: 500 !important;
 }
 
+.message::placeholder {
+  color: #45a29e !important;
+  font-weight: 500 !important;
+}
+
 .btn {
   background-color: #0b0c10 !important;
 

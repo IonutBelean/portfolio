@@ -69,6 +69,7 @@ const Contact = () => {
               rows={3}
               name="message"
               className={`${ContactCSS.message}`}
+              placeholder="Write your message"
             />
           </Form.Group>
 
